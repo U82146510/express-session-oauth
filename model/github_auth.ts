@@ -6,8 +6,8 @@ import { User, IUser } from "../model/User";
 
 dotenv.config();
 
-const client_id = "Ov23liKFSd0WWEgm8KiK" as string;
-const client_secret = '2927727be45f9ebf54de929c2af338fd75872cec' as string;
+const client_id = 
+const client_secret =
 
 if (!client_id || !client_secret) {
   throw new Error("Missing GITHUB_CLIENT_ID or GITHUB_CLIENT_SECRET in .env");
